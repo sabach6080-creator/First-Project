@@ -1,8 +1,8 @@
-DevoraX — Software Selling Website
+**DevoraX — Software Selling Website**
 
 DevoraX is a modern, responsive web platform to browse, purchase, and manage software products. It includes dedicated pages for services, portfolio, contact, about, and career opportunities. The website is designed for both customers and admins/business owners to showcase and manage offerings.
 
-🌟 What is DevoraX?
+**What is DevoraX?**
 DevoraX is a clean and user-friendly website built to:
 
 Offer software products and related services.
@@ -13,7 +13,7 @@ Enable admins/business owners to showcase products, portfolio, and company infor
 
 Provide contact and career management options.
 
-📄 Pages
+ Pages
 Page	Description
 Home	Landing page highlighting the brand, main offerings, and a quick overview.
 Services	Details of services offered (software sales, support, custom development, consultations).
@@ -21,7 +21,7 @@ Portfolio	Showcases past software products or projects to demonstrate quality an
 About	Company information — mission, vision, background, values, etc.
 Career	Lists available jobs or collaboration opportunities, with application info.
 Contact	Contact form or details for inquiries and support.
-✨ Key Features
+ Key Features
 
 Fully responsive design (desktop & mobile)
 
@@ -33,11 +33,11 @@ Contact and career forms (or placeholders) for inquiries and applications
 
 Clean, professional layout suitable for startups or software-selling businesses
 
-🛠 Tech Stack
+ Tech Stack
 
 Frontend: HTML, CSS, JavaScript
 
-🚀 How to Run Locally
+How to Run Locally
 
 Clone the repository:
 
@@ -45,7 +45,7 @@ git clone https://github.com/sabach6080-creator/First-Project.git
 
 Open any .html file in a web browser to view the pages.
 
-🗂 Project Structure
+Project Structure
 /DevoraX
 ├── index.html         # Home page
 ├── services.html      # Services page
