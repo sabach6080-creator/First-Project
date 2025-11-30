@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TechNova — Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <div class="brand"><div class="logo-mark">DV</div><div>DevoraX</div></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn" href="contact.html">Get Started</a>
+      <button class="menu-btn"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="title">Our Services</div>
+
+      <div class="services-grid">
+        <!-- Service item template -->
+        <div class="service">
+          <div class="icon"><i class="fa-solid fa-code"></i></div>
+          <h4>Web Development</h4>
+          <p>Full-stack development: React, Vue, Node.js, Django — responsive, accessible, fast.</p>
+        </div>
+
+        <div class="service">
+          <div class="icon"><i class="fa-solid fa-mobile-button"></i></div>
+          <h4>Mobile App Development</h4>
+          <p>iOS, Android, React Native & Flutter apps — optimized for performance and UX.</p>
+        </div>
+
+        <div class="service">
+          <div class="icon"><i class="fa-solid fa-cloud"></i></div>
+          <h4>Cloud Solutions</h4>
+          <p>AWS/Azure/GCP infrastructure, containerization and cost-optimized architectures.</p>
+        </div>
+
+        <div class="service">
+          <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h4>IT Consulting</h4>
+          <p>Technology strategy, product discovery, and engineering assessments to reduce risk.</p>
+        </div>
+
+        <div class="service">
+          <div class="icon"><i class="fa-solid fa-paintbrush"></i></div>
+          <h4>UI/UX Design</h4>
+          <p>User research, prototypes and pixel-perfect interfaces that users love to use.</p>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer style="background-color: #0a1f44; padding: 20px 0;"> 
+  <div class="container footer-grid"> 
+    <div style="color:white;font-weight:800;">DevoraX</div> 
+    <div class="small" style="color:white;">Specialized in product development</div> 
+    <div class="small" style="color:white;">© <span id="svyear"></span></div> 
+  </div> 
+</footer>
+<script>document.getElementById('svyear').innerText = new Date().getFullYear();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

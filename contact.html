@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TechNova — Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <div class="brand"><div class="logo-mark">DV</div><div>DevoraX</div></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn" href="index.html">Home</a>
+      <button class="menu-btn"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="title">Contact Us</div>
+      <div style="display:grid;grid-template-columns:1fr 420px;gap:22px;align-items:start;">
+
+        <div>
+          <div class="form">
+            <form onsubmit="return validateContactForm(this);">
+              <label for="name">Name</label>
+              <input id="name" name="name" class="input" placeholder="Your name">
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" class="input" placeholder="you@company.com">
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" class="input" placeholder="How can we help?"></textarea>
+
+              <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+            </form>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <h4>Contact Information</h4>
+            <p class="small" style="margin-top:8px;"><strong>Email:</strong>DevoraX@gmail.com</p>
+            <p class="small"><strong>Phone:</strong> +92 300 1234567</p>
+            <p class="small"><strong>Office:</strong> 123 Tech Street, Karachi, Pakistan</p>
+
+    
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer style="background-color: #0a1f44; padding: 20px 0;"> 
+<div class="container footer-grid"> 
+<div style="color:white; font-weight:800;">DevoraX</div> 
+<div class="small" style="color:white;">Questions? We're here to help</div> 
+<div class="small" style="color:white;">© <span id="cty"></span></div> 
+</div> 
+</footer>
+
+<script>document.getElementById('cty').innerText = new Date().getFullYear();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

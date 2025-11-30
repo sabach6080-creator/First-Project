@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DevoraX — Careers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <div class="brand"><div class="logo-mark">DV</div><div>DevoraX</div></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn" href="contact.html">Contact</a>
+      <button class="menu-btn"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="title">Careers</div>
+      <p class="small">We're growing. Join us if you want to build great products, learn fast, and be part of an uplifting team.</p>
+
+      <div style="display:grid;grid-template-columns:1fr 420px;gap:20px;margin-top:18px;">
+        <div>
+          <div class="job">
+            <h4>Senior Front-end Engineer</h4>
+            <p class="small">Remote — Full-time</p>
+            <p class="small" style="margin-top:10px;">We are looking for an experienced front-end engineer with strong React knowledge, component-driven architecture experience, and a keen eye for UI. 5+ years experience preferred.</p>
+          </div>
+
+          <div class="job">
+            <h4>Cloud DevOps Engineer</h4>
+            <p class="small">Hybrid — Full-time</p>
+            <p class="small" style="margin-top:10px;">Experience with AWS/GCP, IaC (Terraform), CI/CD pipelines and container orchestration.</p>
+          </div>
+
+          <div class="job">
+            <h4>Product Designer</h4>
+            <p class="small">Remote — Contract</p>
+            <p class="small" style="margin-top:10px;">Strong prototyping, user research and Figma skills. Advocate for accessible products.</p>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <h4>Apply Now</h4>
+            <form class="form" onsubmit="return validateApplyForm(this);">
+              <label for="app-name">Full name</label>
+              <input id="app-name" name="app-name" class="input" placeholder="Your full name">
+
+              <label for="app-email">Email</label>
+              <input id="app-email" name="app-email" class="input" placeholder="you@company.com">
+
+              <label for="app-position">Position</label>
+              <select id="app-position" name="app-position" class="input">
+                <option value="">-- Select --</option>
+                <option>Senior Front-end Engineer</option>
+                <option>Cloud DevOps Engineer</option>
+                <option>Product Designer</option>
+              </select>
+
+              <label for="app-cover">Short cover note</label>
+              <textarea id="app-cover" name="app-cover" rows="5" placeholder="Tell us why you're a great fit"></textarea>
+
+              <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Submit Application</button>
+            </form>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="background-color: #0a1f44; padding: 20px 0;"> 
+  <div class="container footer-grid"> 
+    <div style="color:white; font-weight:800;">DevoraX</div> 
+    <div class="small" style="color:white;">We hire remote & local talent</div> 
+    <div class="small" style="color:white;">© <span id="cryear"></span></div> 
+  </div> 
+</footer>
+<script>document.getElementById('cryear').innerText = new Date().getFullYear();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

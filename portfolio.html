@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TechNova — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <div class="brand"><div class="logo-mark">DV</div><div>DevoraX</div></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn" href="contact.html">Enquire</a>
+      <button class="menu-btn"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="title">Portfolio</div>
+
+      <div class="portfolio-grid">
+        <div class="project" data-industry="Finance">
+         <img src="c9.jpg",alt="Finance">
+
+                    <div class="meta">
+            <h5>FinAnalytics</h5>
+            <p class="industry">Finance</p>
+            <p>Real-time analytics for wealth managers with a secure data pipeline.</p>
+          </div>
+        </div>
+
+        <div class="project" data-industry="Healthcare">
+          <img src="c6.jpg",alt="Healthcare">
+          <div class="meta">
+            <h5>HealConnect</h5>
+            <p class="industry">Healthcare</p>
+            <p>Telehealth platform integrating EHRs and video consultations.</p>
+          </div>
+        </div>
+
+        <div class="project" data-industry="Retail">
+                   <img src="c8.jpg",alt="Retail">
+
+
+          <div class="meta">
+            <h5>Storefront Pro</h5>
+            <p class="industry">Retail</p>
+            <p>Multi-vendor eCommerce with order orchestration and analytics.</p>
+          </div>
+        </div>
+
+        <div class="project" data-industry="Logistics">
+           <img src="c7.jpg",alt="Logistics">
+
+                    <div class="meta">
+            <h5>ShipSmart</h5>
+            <p class="industry">Logistics</p>
+            <p>Route optimization and live tracking for enterprise logistics.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer style="background-color: #0a1f44; padding: 20px 0;"> 
+  <div class="container footer-grid"> 
+    <div style="color:white; font-weight:800;">DevoraX</div> 
+    <div class="small" style="color:white;">Selected projects & case studies</div> 
+    <div class="small" style="color:white;">© <span id="pfy"></span></div> 
+  </div> 
+</footer> 
+
+<script>document.getElementById('pfy').innerText = new Date().getFullYear();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

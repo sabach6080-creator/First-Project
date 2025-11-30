@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DevoraX — About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <div class="brand"><div class="logo-mark">DV</div><div>DevoraX</div></div>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a class="btn" href="contact.html">Contact</a>
+      <button class="menu-btn" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="title">About DevoraX</div>
+      <div style="display:grid;grid-template-columns:1fr 460px;gap:28px;align-items:center;">
+        <div>
+          <p class="small">DevoraX Solutions is a software development studio focused on building high-quality digital products for enterprises and ambitious startups. We combine design, engineering, and strategy to deliver measurable results.</p>
+
+          <h4 style="margin-top:16px;">Mission</h4>
+          <p class="small">To create secure, scalable, and delightful digital experiences that help businesses grow.</p>
+
+          <h4 style="margin-top:12px;">Vision</h4>
+          <p class="small">To be the trusted engineering partner for companies undergoing digital transformation.</p>
+        </div>
+
+        <div class="card">
+          <h4>Company Timeline</h4>
+          <ol style="margin-top:12px;color:#475569;line-height:1.5;">
+            <li><strong>2016</strong> — Founded by a team of engineers and product designers.</li>
+            <li><strong>2018</strong> — Launched first enterprise-grade SaaS product.</li>
+            <li><strong>2020</strong> — Expanded into cloud & DevOps consulting.</li>
+            <li><strong>2023</strong> — Reached 100+ delivered projects worldwide.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="section">
+    <div class="container">
+      <div class="title">Meet the Team</div>
+      <div class="team-grid">
+        <div class="person">
+          <img src="pers1.jpg" alt="team">
+          <h4>Qaima Maryam</h4>
+          <div class="small">Chief Executive Officer (CEO)</div>
+        </div>
+        <div class="person">
+          <img src="pers2.jpg" alt="teamA">
+          <h4>Hiba Saeed</h4>
+          <div class="small">Chief Technology Officer (CTO)</div>
+        </div>
+        <div class="person">
+          <img src="pers3.jpg" alt="team">
+          <h4>Saba Rani</h4>
+          <div class="small">Chief Financial Officer (CFO)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer style="background-color: #0a1f44; padding: 20px 0;"> 
+<div class="container footer-grid"> 
+<div style="color:white; font-weight:800;">DevoraX</div> 
+<div class="small" style="color:white;">Innovative software engineering</div> 
+<div class="small" style="color:white;">© <span id="year2"></span></div> 
+</div> 
+</footer>
+<script>document.getElementById('year2').innerText = new Date().getFullYear();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
