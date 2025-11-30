@@ -13,7 +13,7 @@ Enable admins/business owners to showcase products, portfolio, and company infor
 
 Provide contact and career management options.
 
-** Pages**
+**Pages**
 Page	Description
 Home	Landing page highlighting the brand, main offerings, and a quick overview.
 Services	Details of services offered (software sales, support, custom development, consultations).
@@ -21,7 +21,7 @@ Portfolio	Showcases past software products or projects to demonstrate quality an
 About	Company information — mission, vision, background, values, etc.
 Career	Lists available jobs or collaboration opportunities, with application info.
 Contact	Contact form or details for inquiries and support.
-** Key Features**
+**Key Features**
 
 Fully responsive design (desktop & mobile)
 
@@ -39,14 +39,12 @@ Frontend: HTML, CSS, JavaScript
 
 How to Run Locally
 
-**Clone the repository:
-**
-**git clone https://github.com/sabach6080-creator/First-Project.git
-**
+**Clone the repository:**
+**git clone https://github.com/sabach6080-creator/First-Project.git**
 Open any .html file in a web browser to view the pages.
 
 **Project Structure**
-/DevoraX
+/DevoraX/n
 ├── index.html         # Home page
 ├── services.html      # Services page
 ├── portfolio.html     # Portfolio page
