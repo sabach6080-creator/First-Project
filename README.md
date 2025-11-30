@@ -41,8 +41,7 @@ Frontend: HTML, CSS, JavaScript
 
 Clone the repository:
 
-git clone https://github.com/Qaimaryam/DevoraX.git
-
+git clone https://github.com/sabach6080-creator/First-Project.git
 
 Open any .html file in a web browser to view the pages.
 
