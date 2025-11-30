@@ -36,8 +36,7 @@ DevoraX is a clean and user‑friendly website built to offer software products 
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/Qaimaryam/DevoraX.git
-
+   git clone https://github.com/sabach6080-creator/First-Project.git
 
   ##  Project Structure
 
